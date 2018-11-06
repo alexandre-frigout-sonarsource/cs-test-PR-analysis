@@ -26,5 +26,10 @@ namespace ConsoleApp1
 		{
 			return 3;
 		}
+		
+		public int MyfourthMethod()
+		{
+			return 3;
+		}
 	}
 }
