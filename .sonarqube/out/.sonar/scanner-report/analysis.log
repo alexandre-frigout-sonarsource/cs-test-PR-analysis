@@ -1,0 +1,167 @@
+Environment variables:
+  - =C:=C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1-bis
+  - ALLUSERSPROFILE=C:\ProgramData
+  - APPDATA=C:\Users\alex\AppData\Roaming
+  - CLIENTNAME=AlexandeFrigout
+  - COMPUTERNAME=Alex-Enterprise
+  - ComSpec=C:\WINDOWS\system32\cmd.exe
+  - CommonProgramFiles=C:\Program Files\Common Files
+  - CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+  - CommonProgramW6432=C:\Program Files\Common Files
+  - DriverData=C:\Windows\System32\Drivers\DriverData
+  - ERROR_CODE=0
+  - FSHARPINSTALLDIR=C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\
+  - GTK_BASEPATH=C:\Program Files (x86)\GtkSharp\2.12\
+  - HOMEDRIVE=C:
+  - HOMEPATH=\Users\alex
+  - JAVA_EXEC="C:\Program Files\Java\jre1.8.0_161\\bin\java.exe"
+  - JAVA_HOME=C:\Program Files\Java\jre1.8.0_161\
+  - LOCALAPPDATA=C:\Users\alex\AppData\Local
+  - LOGONSERVER=\\Alex-Enterprise
+  - NUMBER_OF_PROCESSORS=4
+  - OS=Windows_NT
+  - OneDrive=C:\Users\alex\OneDrive
+  - PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+  - PROCESSOR_ARCHITECTURE=AMD64
+  - PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 63 Stepping 2, GenuineIntel
+  - PROCESSOR_LEVEL=6
+  - PROCESSOR_REVISION=3f02
+  - PROJECT_HOME=C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1-bis
+  - PROMPT=$P$G
+  - PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\WindowsPowerShell\Modules\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\Storage\
+  - PUBLIC=C:\Users\Public
+  - Path=C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\WINDOWS\System32\OpenSSH\;C:\Users\alex\Documents\tools\sonar-scanner-msbuild-4.2.0.1214-net46;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Team Tools\Dynamic Code Coverage Tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\;C:\Users\alex\AppData\Local\Microsoft\WindowsApps;C:\Users\alex\Documents\tools\sonar-scanner-msbuild-4.2.0.1214-net46;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Team Tools\Dynamic Code Coverage Tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin;
+  - ProgramData=C:\ProgramData
+  - ProgramFiles=C:\Program Files
+  - ProgramFiles(x86)=C:\Program Files (x86)
+  - ProgramW6432=C:\Program Files
+  - SESSIONNAME=RDP-Tcp#3
+  - SONAR_SCANNER_HOME=C:\Users\alex\Documents\tools\sonar-scanner-msbuild-4.2.0.1214-net46\sonar-scanner-3.1.0.1141\bin\..
+  - SONAR_SCANNER_OPTS=-Xmx1024m
+  - SystemDrive=C:
+  - SystemRoot=C:\WINDOWS
+  - TEMP=C:\Users\alex\AppData\Local\Temp
+  - TMP=C:\Users\alex\AppData\Local\Temp
+  - USERDOMAIN=Alex-Enterprise
+  - USERDOMAIN_ROAMINGPROFILE=Alex-Enterprise
+  - USERNAME=alex
+  - USERPROFILE=C:\Users\alex
+  - VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+  - scriptdir=C:\Users\alex\Documents\tools\sonar-scanner-msbuild-4.2.0.1214-net46\sonar-scanner-3.1.0.1141\bin
+  - use_embedded_jre=false
+  - windir=C:\WINDOWS
+System properties:
+  - awt.toolkit=sun.awt.windows.WToolkit
+  - file.encoding=Cp1252
+  - file.encoding.pkg=sun.io
+  - file.separator=\
+  - java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+  - java.awt.headless=true
+  - java.awt.printerjob=sun.awt.windows.WPrinterJob
+  - java.class.path=C:\Users\alex\Documents\tools\sonar-scanner-msbuild-4.2.0.1214-net46\sonar-scanner-3.1.0.1141\bin\..\lib\sonar-scanner-cli-3.1.0.1141.jar
+  - java.class.version=52.0
+  - java.endorsed.dirs=C:\Program Files\Java\jre1.8.0_161\lib\endorsed
+  - java.ext.dirs=C:\Program Files\Java\jre1.8.0_161\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+  - java.home=C:\Program Files\Java\jre1.8.0_161
+  - java.io.tmpdir=C:\Users\alex\AppData\Local\Temp\
+  - java.library.path=C:\Program Files\Java\jre1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\WINDOWS\System32\OpenSSH\;C:\Users\alex\Documents\tools\sonar-scanner-msbuild-4.2.0.1214-net46;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Team Tools\Dynamic Code Coverage Tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\;C:\Users\alex\AppData\Local\Microsoft\WindowsApps;C:\Users\alex\Documents\tools\sonar-scanner-msbuild-4.2.0.1214-net46;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Team Tools\Dynamic Code Coverage Tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin;;.
+  - java.runtime.name=Java(TM) SE Runtime Environment
+  - java.runtime.version=1.8.0_161-b12
+  - java.specification.name=Java Platform API Specification
+  - java.specification.vendor=Oracle Corporation
+  - java.specification.version=1.8
+  - java.vendor=Oracle Corporation
+  - java.vendor.url=http://java.oracle.com/
+  - java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+  - java.version=1.8.0_161
+  - java.vm.info=mixed mode
+  - java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+  - java.vm.specification.name=Java Virtual Machine Specification
+  - java.vm.specification.vendor=Oracle Corporation
+  - java.vm.specification.version=1.8
+  - java.vm.vendor=Oracle Corporation
+  - java.vm.version=25.161-b12
+  - line.separator=
+
+  - os.arch=amd64
+  - os.name=Windows 10
+  - os.version=10.0
+  - path.separator=;
+  - project.home=C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1-bis
+  - scanner.home=C:\Users\alex\Documents\tools\sonar-scanner-msbuild-4.2.0.1214-net46\sonar-scanner-3.1.0.1141\bin\..
+  - sun.arch.data.model=64
+  - sun.boot.class.path=C:\Program Files\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files\Java\jre1.8.0_161\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_161\classes
+  - sun.boot.library.path=C:\Program Files\Java\jre1.8.0_161\bin
+  - sun.cpu.endian=little
+  - sun.cpu.isalist=amd64
+  - sun.desktop=windows
+  - sun.io.unicode.encoding=UnicodeLittle
+  - sun.java.command=org.sonarsource.scanner.cli.Main -Dsonar.scanAllFiles=true -Dproject.settings=C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1-bis\.sonarqube\out\sonar-project.properties
+  - sun.java.launcher=SUN_STANDARD
+  - sun.jnu.encoding=Cp1252
+  - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+  - sun.os.patch.level=
+  - user.country=US
+  - user.dir=C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1-bis
+  - user.home=C:\Users\alex
+  - user.language=en
+  - user.name=alex
+  - user.script=
+  - user.timezone=UTC
+  - user.variant=
+SonarQube plugins:
+  - SonarCSS 1.0.2.611 (cssfamily)
+  - Svn 1.9.0.1295 (scmsvn)
+  - SonarPLSQL 3.2.0.1753 (plsql)
+  - SonarC# 7.7.0.7192 (csharp)
+  - Vulnerability Analysis 7.4.0.1949 (security)
+  - SonarJava 5.8.0.15699 (java)
+  - LDAP 2.2.0.608 (ldap)
+  - SonarFlex 2.4.0.1222 (flex)
+  - SonarXML 1.5.1.1452 (xml)
+  - SonarTS 1.8.0.3332 (typescript)
+  - SonarVB 7.7.0.7192 (vbnet)
+  - SonarSwift 4.0.0.2853 (swift)
+  - SonarCFamily 5.1.1.10386 (cpp)
+  - SonarPython 1.10.0.2131 (python)
+  - JaCoCo 1.0.1.143 (jacoco)
+  - SonarGo 1.1.0.1612 (go)
+  - SonarKotlin 1.2.1.2009 (kotlin)
+  - SonarRPG 2.3.0.1187 (rpg)
+  - SonarPLI 1.9.0.1349 (pli)
+  - SonarTSQL 1.3.0.2899 (tsql)
+  - SonarVB6 2.4.0.1305 (vb)
+  - SonarJS 5.0.0.6962 (javascript)
+  - SonarRuby 1.2.1.2009 (ruby)
+  - Vulnerability Rules for C# 7.4.0.1949 (securitycsharpfrontend)
+  - Vulnerability Rules for Java 7.4.0.1949 (securityjavafrontend)
+  - License for SonarLint 7.5.0.19100 (license)
+  - SonarCOBOL 4.3.0.3019 (cobol)
+  - Git 1.6.0.1349 (scmgit)
+  - SonarPHP 2.14.0.3569 (php)
+  - SonarABAP 3.7.0.1603 (abap)
+Global properties:
+  - sonar.core.id=758C1BF0-AWbj6N0eAx6kAFYCLOuR
+  - sonar.core.startTime=2018-11-06T13:36:16+0000
+Settings for module: 1aaaaaa:1aaaaaa:4BEE48FC-F580-4E73-9DA2-6404235C0B1C
+  - sonar.cs.analyzer.projectOutPath=C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1-bis\.sonarqube\out\0
+  - sonar.cs.analyzer.projectOutPaths="C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1-bis\.sonarqube\out\0"
+  - sonar.cs.roslyn.reportFilePath=C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1-bis\bin\Debug\ConsoleApp1.exe.RoslynCA.json
+  - sonar.cs.roslyn.reportFilePaths="C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1-bis\bin\Debug\ConsoleApp1.exe.RoslynCA.json"
+  - sonar.moduleKey=1aaaaaa:1aaaaaa:4BEE48FC-F580-4E73-9DA2-6404235C0B1C
+  - sonar.projectKey=1aaaaaa:1aaaaaa:4BEE48FC-F580-4E73-9DA2-6404235C0B1C
+  - sonar.projectName=ConsoleApp1
+  - sonar.sourceEncoding=utf-8
+  - sonar.sources="C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1-bis\Program.cs","C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1-bis\Properties\AssemblyInfo.cs","C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1-bis\App.config"
+Settings for module: 1aaaaaa
+  - sonar.host.url=http://localhost:9000
+  - sonar.modules=4BEE48FC-F580-4E73-9DA2-6404235C0B1C
+  - sonar.projectBaseDir=C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1-bis
+  - sonar.projectKey=1aaaaaa
+  - sonar.scanAllFiles=true
+  - sonar.scanner.app=ScannerCli
+  - sonar.scanner.appVersion=3.1.0.1141
+  - sonar.sourceEncoding=windows-1252
+  - sonar.verbose=true
+  - sonar.visualstudio.enable=false
+  - sonar.working.directory=C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1-bis\.sonarqube\out\.sonar

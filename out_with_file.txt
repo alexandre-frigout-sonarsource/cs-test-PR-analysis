@@ -1,0 +1,252 @@
+SonarQube Scanner for MSBuild 4.0.2
+Default properties file was found at C:\Users\alex\Documents\tools\sonar-scanner-msbuild-4.0.2.892\SonarQube.Analysis.xml
+Loading analysis properties from C:\Users\alex\Documents\tools\sonar-scanner-msbuild-4.0.2.892\SonarQube.Analysis.xml
+Post-processing started.
+15:29:23.994  Loading the SonarQube analysis config from C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\.sonarqube\conf\SonarQubeAnalysisConfig.xml
+15:29:23.994  Not running under TeamBuild
+15:29:23.994  Analysis base directory: C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\.sonarqube
+Build directory: 
+Bin directory: C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\.sonarqube\bin
+Config directory: C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\.sonarqube\conf
+Output directory: C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\.sonarqube\out
+Config file: C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\.sonarqube\conf\SonarQubeAnalysisConfig.xml
+Generating SonarQube project properties file to C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\.sonarqube\out\sonar-project.properties
+Setting analysis property: sonar.visualstudio.enable=false
+The supplied Code Analysis ErrorLog file is a valid json file and does not need to be fixed: C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\bin\Debug\ConsoleApp1.exe.RoslynCA.json
+Using longest common projects root path as project base directory: 'C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1'.
+Writing processing summary to C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\.sonarqube\out\ProjectInfo.log
+SONAR_SCANNER_OPTS is not configured. Setting it to the default value of -Xmx1024m
+Calling the SonarQube Scanner...
+Setting environment variable 'SONAR_SCANNER_OPTS'. Value: -Xmx1024m
+Executing file C:\Users\alex\Documents\tools\sonar-scanner-msbuild-4.0.2.892\sonar-scanner-3.0.3.778\bin\sonar-scanner.bat
+  Args: -Dsonar.scanAllFiles=true -Dproject.settings=C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\.sonarqube\out\sonar-project.properties <sensitive data removed>
+  Working directory: C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1
+  Timeout (ms):-1
+  Process id: 9920
+INFO: Scanner configuration file: C:\Users\alex\Documents\tools\sonar-scanner-msbuild-4.0.2.892\sonar-scanner-3.0.3.778\bin\..\conf\sonar-scanner.properties
+INFO: Project root configuration file: C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\.sonarqube\out\sonar-project.properties
+15:29:24.338 INFO: SonarQube Scanner 3.0.3.778
+15:29:24.338 INFO: Java 1.8.0_161 Oracle Corporation (64-bit)
+15:29:24.338 INFO: Windows 10 10.0 amd64
+15:29:24.338 INFO: SONAR_SCANNER_OPTS=-Xmx1024m
+15:29:24.448 DEBUG: keyStore is : 
+15:29:24.448 DEBUG: keyStore type is : jks
+15:29:24.448 DEBUG: keyStore provider is : 
+15:29:24.448 DEBUG: init keystore
+15:29:24.448 DEBUG: init keymanager of type SunX509
+15:29:24.557 INFO: User cache: C:\Users\alex\.sonar\cache
+15:29:24.557 DEBUG: Extract sonar-scanner-api-batch in temp...
+15:29:24.557 DEBUG: Get bootstrap index...
+15:29:24.557 DEBUG: Download: http://localhost:9000/batch/index
+15:29:24.619 DEBUG: Get bootstrap completed
+15:29:24.619 DEBUG: Create isolated classloader...
+15:29:24.635 DEBUG: Start temp cleaning...
+15:29:24.635 DEBUG: Temp cleaning done
+15:29:24.635 DEBUG: Execution getVersion
+15:29:24.635 DEBUG: Execution start
+15:29:24.807 INFO: Publish mode
+15:29:24.916 INFO: Load global settings
+15:29:24.963 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf | time=31ms
+15:29:24.979 INFO: Load global settings (done) | time=63ms
+15:29:24.979 INFO: Server id: AWIqFgJg2EThshJeOXST
+15:29:24.994 INFO: User cache: C:\Users\alex\.sonar\cache
+15:29:25.229 INFO: Load plugins index
+15:29:25.244 DEBUG: GET 200 http://localhost:9000/api/plugins/installed | time=15ms
+15:29:25.276 INFO: Load plugins index (done) | time=47ms
+15:29:25.276 DEBUG: Load plugins
+15:29:25.291 DEBUG: Load plugins (done) | time=15ms
+15:29:25.323 DEBUG: Plugins:
+15:29:25.323 DEBUG:   * SonarC# 6.5.0.3766 (csharp)
+15:29:25.323 DEBUG:   * SonarPython 1.8.0.1496 (python)
+15:29:25.323 DEBUG:   * SonarJava 4.15.0.12310 (java)
+15:29:25.323 DEBUG:   * Flex 2.3 (flex)
+15:29:25.323 DEBUG:   * SonarQube :: Plugins :: SCM :: Git 1.3.0.869 (scmgit)
+15:29:25.323 DEBUG:   * SonarXML 1.4.3.1027 (xml)
+15:29:25.323 DEBUG:   * SonarPHP 2.11.0.2485 (php)
+15:29:25.323 DEBUG:   * SonarTS 1.1.0.1079 (typescript)
+15:29:25.323 DEBUG:   * SonarQube :: Plugins :: SCM :: SVN 1.6.0.860 (scmsvn)
+15:29:25.323 DEBUG:   * SonarJS 3.2.0.5506 (javascript)
+15:29:25.338 DEBUG: Execution getVersion
+15:29:25.338 INFO: SonarQube server 6.7.1
+15:29:25.338 INFO: Default locale: "en_US", source code encoding: "windows-1252" (analysis is platform dependent)
+15:29:25.338 DEBUG: Work directory: C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\.sonarqube\out\.sonar
+15:29:25.338 DEBUG: Execution getVersion
+15:29:25.338 DEBUG: Execution execute
+15:29:25.760 INFO: Process project properties
+15:29:25.776 DEBUG: Process project properties (done) | time=16ms
+15:29:25.791 INFO: Load project repositories
+15:29:25.807 DEBUG: GET 200 http://localhost:9000/batch/project.protobuf?key=sonarqube_project_key | time=16ms
+15:29:25.869 INFO: Load project repositories (done) | time=78ms
+15:29:25.948 DEBUG: Available languages:
+15:29:25.948 DEBUG:   * C# => "cs"
+15:29:25.948 DEBUG:   * Python => "py"
+15:29:25.948 DEBUG:   * Java => "java"
+15:29:25.948 DEBUG:   * Flex => "flex"
+15:29:25.948 DEBUG:   * XML => "xml"
+15:29:25.948 DEBUG:   * PHP => "php"
+15:29:25.948 DEBUG:   * TypeScript => "ts"
+15:29:25.948 DEBUG:   * JavaScript => "js"
+15:29:25.964 INFO: Load quality profiles
+15:29:25.964 DEBUG: GET 200 http://localhost:9000/api/qualityprofiles/search.protobuf?projectKey=sonarqube_project_key | time=0ms
+15:29:25.979 INFO: Load quality profiles (done) | time=15ms
+15:29:25.979 INFO: Load active rules
+15:29:26.041 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWIqFjTM2EThshJeOXss&p=1&ps=500 | time=62ms
+15:29:26.183 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWIqFjaR2EThshJeOX0M&p=1&ps=500 | time=95ms
+15:29:26.229 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWIqFjgY2EThshJeOX5y&p=1&ps=500 | time=31ms
+15:29:26.229 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWIqFjeL2EThshJeOX4z&p=1&ps=500 | time=0ms
+15:29:26.276 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWIqFjpq2EThshJeOX_Y&p=1&ps=500 | time=16ms
+15:29:26.291 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWIqFjsG2EThshJeOYBX&p=1&ps=500 | time=15ms
+15:29:26.307 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWIqFjy72EThshJeOYEI&p=1&ps=500 | time=16ms
+15:29:26.338 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWIqFj3V2EThshJeOYFM&p=1&ps=500 | time=31ms
+15:29:26.338 INFO: Load active rules (done) | time=359ms
+15:29:26.338 INFO: Load metrics repository
+15:29:26.354 DEBUG: GET 200 http://localhost:9000/api/metrics/search?f=name,description,direction,qualitative,custom&ps=500&p=1 | time=16ms
+15:29:26.370 INFO: Load metrics repository (done) | time=32ms
+15:29:26.401 INFO: Project key: sonarqube_project_key
+15:29:26.401 DEBUG: Start recursive analysis of project modules
+15:29:26.401 INFO: -------------  Scan ConsoleApp1
+15:29:26.510 INFO: Load server rules
+15:29:26.619 DEBUG: GET 200 http://localhost:9000/api/rules/list.protobuf | time=109ms
+15:29:26.619 INFO: Load server rules (done) | time=109ms
+15:29:26.651 INFO: Base dir: C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1
+15:29:26.651 INFO: Working dir: C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\.sonarqube\out\.sonar\sonarqube_project_key_sonarqube_project_key_4BEE48FC-F580-4E73-9DA2-6404235C0B1C
+15:29:26.651 INFO: Source paths: Program.cs, Properties/AssemblyInfo.cs, App.config
+15:29:26.651 INFO: Source encoding: UTF-8, default locale: en_US
+15:29:26.744 DEBUG: Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
+15:29:26.744 DEBUG: Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
+15:29:26.744 DEBUG: Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+15:29:26.744 DEBUG: Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+15:29:26.744 DEBUG: Declared extensions of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl
+15:29:26.744 DEBUG: Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+15:29:26.744 DEBUG: Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx
+15:29:26.744 DEBUG: Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.vue
+15:29:26.744 DEBUG: Initializers : 
+15:29:26.744 INFO: Index files
+15:29:26.760 INFO: Analyzer working directory contains 5 .pb file(s)
+15:29:26.791 DEBUG: 'App.config' indexed with language 'null'
+15:29:26.791 DEBUG: 'Properties/AssemblyInfo.cs' generated metadata  with charset 'UTF-8'
+15:29:26.791 DEBUG: 'Program.cs' generated metadata  with charset 'UTF-8'
+15:29:26.791 DEBUG: 'Program.cs' indexed with language 'cs'
+15:29:26.791 DEBUG: 'Properties\AssemblyInfo.cs' indexed with language 'cs'
+15:29:26.791 INFO: 3 files indexed
+15:29:26.791 INFO: Quality profile for cs: Sonar way
+15:29:27.526 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+15:29:27.526 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+15:29:27.526 DEBUG: 'Python Squid Sensor' skipped because there is no related file in current project
+15:29:27.526 DEBUG: 'SurefireSensor' skipped because there is no related file in current project
+15:29:27.526 DEBUG: 'JaCoCoSensor' skipped because there is no related file in current project
+15:29:27.526 DEBUG: 'JavaSquidSensor' skipped because there is no related file in current project
+15:29:27.526 DEBUG: 'Flex' skipped because there is no related file in current project
+15:29:27.526 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+15:29:27.526 DEBUG: 'XML Sensor' skipped because there is no related file in current project
+15:29:27.526 DEBUG: 'PHP sensor' skipped because there is no related file in current project
+15:29:27.526 DEBUG: 'TypeScript Sensor' skipped because there is no related file in current project
+15:29:27.526 DEBUG: 'TypeScript LCOV Coverage Sensor' skipped because there is no related file in current project
+15:29:27.526 DEBUG: 'JavaScript Squid Sensor' skipped because there is no related file in current project
+15:29:27.526 DEBUG: Sensors : C# -> SonarJavaXmlFileSensor -> Analyzer for "php.ini" files
+15:29:27.526 INFO: Sensor C# [csharp]
+15:29:27.526 INFO: Importing analysis results from C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\.sonarqube\out\0\output-cs
+15:29:27.588 DEBUG: Not enough content in 'Program.cs' to have CPD blocks, it will not be part of the duplication detection
+15:29:27.588 INFO: Importing Roslyn report
+15:29:27.635 INFO: Sensor C# [csharp] (done) | time=109ms
+15:29:27.635 INFO: Sensor SonarJavaXmlFileSensor [java]
+15:29:27.635 INFO: Sensor SonarJavaXmlFileSensor [java] (done) | time=0ms
+15:29:27.635 INFO: Sensor Analyzer for "php.ini" files [php]
+15:29:27.635 INFO: Sensor Analyzer for "php.ini" files [php] (done) | time=0ms
+15:29:27.635 INFO: No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+15:29:27.635 INFO: -------------  Scan sonarqube_project_name
+15:29:27.635 INFO: Base dir: C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1
+15:29:27.651 INFO: Working dir: C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\.sonarqube\out\.sonar
+15:29:27.651 INFO: Source encoding: windows-1252, default locale: en_US
+15:29:27.651 DEBUG: Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
+15:29:27.651 DEBUG: Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
+15:29:27.651 DEBUG: Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+15:29:27.651 DEBUG: Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+15:29:27.651 DEBUG: Declared extensions of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl
+15:29:27.651 DEBUG: Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+15:29:27.651 DEBUG: Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx
+15:29:27.651 DEBUG: Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.vue
+15:29:27.651 DEBUG: Initializers : 
+15:29:27.651 INFO: Index files
+15:29:27.651 INFO: 0 files indexed
+15:29:27.682 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+15:29:27.682 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+15:29:27.682 DEBUG: 'C#' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+15:29:27.682 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'Python Squid Sensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'SurefireSensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'JaCoCoSensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'JavaSquidSensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'Flex' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'XML Sensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'PHP sensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'TypeScript Sensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'TypeScript LCOV Coverage Sensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'JavaScript Squid Sensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+15:29:27.682 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+15:29:27.682 DEBUG: 'Python Squid Sensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'SurefireSensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'JaCoCoSensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'JavaSquidSensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'Flex' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'XML Sensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'PHP sensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'TypeScript Sensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'TypeScript LCOV Coverage Sensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: 'JavaScript Squid Sensor' skipped because there is no related file in current project
+15:29:27.682 DEBUG: Sensors : SonarJavaXmlFileSensor -> Analyzer for "php.ini" files -> C# Tests Coverage Report Import -> [Deprecated] C# Integration Tests Coverage Report Import -> C# Unit Test Results Import -> Zero Coverage Sensor -> CPD Block Indexer
+15:29:27.682 INFO: Sensor SonarJavaXmlFileSensor [java]
+15:29:27.682 INFO: Sensor SonarJavaXmlFileSensor [java] (done) | time=0ms
+15:29:27.682 INFO: Sensor Analyzer for "php.ini" files [php]
+15:29:27.682 INFO: Sensor Analyzer for "php.ini" files [php] (done) | time=0ms
+15:29:27.682 INFO: Sensor C# Tests Coverage Report Import [csharp]
+15:29:27.682 INFO: Parsing the Visual Studio coverage XML report C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\VisualStudio.coveragexml
+15:29:27.729 INFO: Adding this code coverage report to the cache for later reuse: C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\VisualStudio.coveragexml
+15:29:27.729 INFO: Sensor C# Tests Coverage Report Import [csharp] (done) | time=47ms
+15:29:27.729 INFO: Sensor [Deprecated] C# Integration Tests Coverage Report Import [csharp]
+15:29:27.729 DEBUG: No coverage property. Skip Sensor
+15:29:27.729 INFO: Sensor [Deprecated] C# Integration Tests Coverage Report Import [csharp] (done) | time=0ms
+15:29:27.729 INFO: Sensor C# Unit Test Results Import [csharp]
+15:29:27.729 DEBUG: No unit test results property. Skip Sensor
+15:29:27.729 INFO: Sensor C# Unit Test Results Import [csharp] (done) | time=0ms
+15:29:27.729 INFO: Sensor Zero Coverage Sensor
+15:29:27.744 INFO: Sensor Zero Coverage Sensor (done) | time=15ms
+15:29:27.744 INFO: Sensor CPD Block Indexer
+15:29:27.744 DEBUG: org.sonar.scanner.cpd.deprecated.DefaultCpdBlockIndexer is used for cs
+15:29:27.744 DEBUG: No CpdMapping for language cs
+15:29:27.744 INFO: Sensor CPD Block Indexer (done) | time=0ms
+15:29:27.744 INFO: No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+15:29:27.744 INFO: 1 file had no CPD blocks
+15:29:27.744 INFO: Calculating CPD for 1 file
+15:29:27.744 DEBUG: Detection of duplications for C:/Users/alex/Documents/Visual Studio 2017/Projects/ConsoleApp1/Properties/AssemblyInfo.cs
+15:29:27.744 INFO: CPD calculation finished
+15:29:27.838 INFO: Analysis report generated in 94ms, dir size=34 KB
+15:29:27.869 INFO: Analysis reports compressed in 31ms, zip size=11 KB
+15:29:27.869 INFO: Analysis report generated in C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\.sonarqube\out\.sonar\scanner-report
+15:29:27.869 DEBUG: Upload report
+15:29:27.885 DEBUG: POST 200 http://localhost:9000/api/ce/submit?projectKey=sonarqube_project_key&projectName=sonarqube_project_name | time=16ms
+15:29:27.901 INFO: Analysis report uploaded in 32ms
+15:29:27.901 INFO: ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard/index/sonarqube_project_key
+15:29:27.901 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+15:29:27.901 INFO: More about the report processing at http://localhost:9000/api/ce/task?id=AWIqR79N2EThshJeOYID
+15:29:27.901 DEBUG: Report metadata written to C:\Users\alex\Documents\Visual Studio 2017\Projects\ConsoleApp1\.sonarqube\out\.sonar\report-task.txt
+15:29:27.901 DEBUG: Post-jobs : 
+15:29:27.901 INFO: Task total time: 2.547 s
+15:29:27.901 INFO: ------------------------------------------------------------------------
+15:29:27.901 INFO: EXECUTION SUCCESS
+15:29:27.901 INFO: ------------------------------------------------------------------------
+15:29:27.901 INFO: Total time: 3.610s
+15:29:27.979 INFO: Final Memory: 48M/401M
+15:29:27.979 INFO: ------------------------------------------------------------------------
+15:29:27.979 DEBUG: Execution getVersion
+15:29:27.979 DEBUG: Execution stop
+Process returned exit code 0
+The SonarQube Scanner has finished
+15:29:28.119  Creating a summary markdown file...
+15:29:28.119  Analysis results: http://localhost:9000/dashboard/index/sonarqube_project_key
+15:29:28.119  Post-processing succeeded.
